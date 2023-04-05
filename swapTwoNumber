@@ -1,0 +1,24 @@
+/*Write a program to Swap two Variables a and b (Swapping basically means interchanging)
+
+Input
+
+a=3 , b=4
+
+Output
+
+a=4, b=3*/
+
+
+function swap(a, b){
+    //write the code to swap two numbers inside this block
+    
+    var temp;
+    temp=a;
+    a=b;
+    b=temp;
+    
+    //dont change below code
+    console.log('a value is =', a);
+    console.log('b value is =', b)
+}
+
